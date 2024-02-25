@@ -1,0 +1,6 @@
+created a website using react app with styled components 
+
+using redux to connect React and js
+
+
+redux will store the user data in the front end S
