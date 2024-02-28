@@ -1,5 +1,7 @@
+import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
+
 
 const Header = (props) => {
     return (
@@ -28,11 +30,9 @@ const Header = (props) => {
             </NavList>
 
             <NavList>
-            <a href="/indexhome.html">
-              
-              <span>Home</span>
-              
-              </a>
+              <Link to="/Homepage">
+                <span>Home</span>
+              </Link>
             </NavList>
             
              <NavList>
