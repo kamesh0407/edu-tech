@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 const Header = (props) => {
     return (
@@ -27,9 +28,10 @@ const Header = (props) => {
             </NavList>
 
             <NavList>
-              <a>
-            
-                <span>Home</span>
+            <a href="/indexhome.html">
+              
+              <span>Home</span>
+              
               </a>
             </NavList>
             
